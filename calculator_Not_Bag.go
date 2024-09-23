@@ -221,7 +221,7 @@ func hundlerRome(x, y string) {
 			translateToRome(c)
 
 		} else {
-			panic("Отрицательных чисел в римской системе нет!")
+			panic("Результат меньше 1")
 		}
 
 	}
