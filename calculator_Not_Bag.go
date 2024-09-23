@@ -176,25 +176,53 @@ func hundlerRome(x, y string) {
 	if znac == "+" {
 
 		c := (RomeToArab[x] + RomeToArab[y])
-		translateToRome(c)
+
+		if c > 0 {
+
+			translateToRome(c)
+
+		} else {
+			panic("Отрицательных чисел в римской системе нет!")
+		}
 
 	}
 	if znac == "-" {
 
 		c := (RomeToArab[x] - RomeToArab[y])
-		translateToRome(c)
+
+		if c > 0 {
+
+			translateToRome(c)
+
+		} else {
+			panic("Отрицательных чисел в римской системе нет!")
+		}
 
 	}
 	if znac == "*" {
 
 		c := (RomeToArab[x] * RomeToArab[y])
-		translateToRome(c)
+
+		if c > 0 {
+
+			translateToRome(c)
+
+		} else {
+			panic("Отрицательных чисел в римской системе нет!")
+		}
 
 	}
 	if znac == "/" {
 
 		c := (RomeToArab[x] / RomeToArab[y])
-		translateToRome(c)
+
+		if c > 0 {
+
+			translateToRome(c)
+
+		} else {
+			panic("Отрицательных чисел в римской системе нет!")
+		}
 
 	}
 
