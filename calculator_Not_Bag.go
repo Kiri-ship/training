@@ -59,7 +59,13 @@ func main() {
 						log.Fatal(err2)
 					}
 
-					hundlerArabic(x, y)
+					if x != 0 && y != 0 {
+
+						hundlerArabic(x, y)
+
+					} else {
+						panic("Ноль нельзя!")
+					}
 
 				} else {
 					panic("Нельзя одновременно использовать две системы счисления")
