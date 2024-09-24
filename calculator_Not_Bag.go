@@ -203,13 +203,11 @@ func hundlerRome(x, y string) {
 
 		c := (RomeToArab[x] * RomeToArab[y])
 
-		if c > 0 {
+		
 
 			translateToRome(c)
 
-		} else {
-			panic("Отрицательных чисел в римской системе нет!")
-		}
+		
 
 	}
 	if znac == "/" {
